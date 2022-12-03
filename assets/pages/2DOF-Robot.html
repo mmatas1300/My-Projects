@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="/My-Projects/assets/js/writeHead.js"></script>
+    <title data-section="2DOF" data-value="title">Design and simulation of a 2 DOF Robot</title>
+  </head>
+  <body>
+    <header>
+      <span class="column-2">
+        <div>
+          <a href="/My-Projects/index.html"><img src= "/My-Projects/assets/icons/circle-arrow.svg" alt="Home" class="icons hover-scale"></a>
+        </div>
+        <span class="lang-change">
+          <p class="lang-icon">n't</p>
+          <input type="checkbox" id="btn-switch">
+          <label for="btn-switch" class="label-switch"></label>
+          <p class="lang-icon">ñ</p>
+        </span>
+      </span> 
+      <h1 data-section="2DOF" data-value="title-h1">Design and simulation of a 2 DOF Robot using SolidWorks and Simscape.</h1>
+    </header>
+    <main>
+      <p data-section="2DOF" data-value="p1" class="text-box">A 2 DOF robot was designed in SolidWorks to export the 3D model and simulate its behavior in Simulink.</p>
+      <span class="row">
+        <div class="column">
+          <img src="/My-Projects/assets/imgs/2DOF-Robot/Modelo.webp" class="prj-image l-reveal" alt="3DModel">
+        </div>
+        <div class="column">
+          <img src="/My-Projects/assets/imgs/2DOF-Robot/SimulinkControl.webp" class="prj-image r-reveal" alt="Simulink control">
+        </div>
+      </span>
+      <p data-section="2DOF" data-value="p2" class="text-box">The trajectories were generated from a manual mapping, then the collection of coordinates was used to generate a function using Fourier series.</p>
+      <span class="row">
+        <div class="column">
+          <img src="/My-Projects/assets/imgs/2DOF-Robot/Tracking.webp" class="prj-image r-reveal" alt="Tracking image">
+        </div>
+        <div class="column">
+          <img src="/My-Projects/assets/imgs/2DOF-Robot/CurveFitting.webp" class="prj-image l-reveal" alt="Curve fitting">
+        </div>
+      </span>
+      <p data-section="2DOF" data-value="p3" class="text-box">Finally, the tracking of the different trajectories was simulated with a PD+ control and a PD with compensation control. In conclusion, better tracking performance was obtained with the PD+ control.</p>
+      <span class="row">
+        <div class="column">
+          <img src="/My-Projects/assets/imgs/2DOF-Robot/TrackingImplementation.webp" class="prj-image l-reveal" alt="Tracking implementation">
+        </div>
+        <div class="column">
+          <img src="/My-Projects/assets/imgs/2DOF-Robot/TrackingError.webp" class="prj-image r-reveal" alt="Tracking error">
+        </div>
+      </span>
+      <div class="breaker"></div>
+    </main>
+    <footer data-section="page" data-value="footer">
+    </footer>
+    <script src="/My-Projects/assets/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+{
+	"page": {
+		"footer": "<a href=\"https://github.com/mmatas1300\" target=\"_blank\"><img src= \"/My-Projects/assets/icons/github.svg\" alt=\"/mmatas1300\" class=\"icons hover-scale\"></a><a href=\"https://www.linkedin.com/in/mmatas1300/\" target=\"_blank\"><img src= \"/My-Projects/assets/icons/linkedin.svg\" alt=\"/mmatas1300\" class=\"icons hover-scale\"></a><a href=\"mailto:mmatas1300@gmail.com\" target=\"_blank\"><img src= \"/My-Projects/assets/icons/at.svg\" alt=\"mmatas1300@gmail.com\" class=\"icons hover-scale\"></a><a href=\"/My-Projects/assets/docs/CV_MM_ES.pdf\" target=\"_blank\"><img src= \"/My-Projects/assets/icons/cv.svg\" alt=\"CV\" class=\"icons hover-scale\"></a><p>Mario Mata<br>Ingeniero Mecatrónico<br>© 2022</b></p>",
+		"footer-index": "<a href=\"https://github.com/mmatas1300\" target=\"_blank\"><img src= \"assets/icons/github.svg\" alt=\"/mmatas1300\" class=\"icons hover-scale\"></a><a href=\"https://www.linkedin.com/in/mmatas1300/\" target=\"_blank\"><img src= \"assets/icons/linkedin.svg\" alt=\"/mmatas1300\" class=\"icons hover-scale\"></a><a href=\"mailto:mmatas1300@gmail.com\" target=\"_blank\"><img src= \"assets/icons/at.svg\" alt=\"mmatas1300@gmail.com\" class=\"icons hover-scale\"></a><a href=\"assets/docs/CV_MM_ES.pdf\" target=\"_blank\"><img src= \"assets/icons/cv.svg\" alt=\"CV\" class=\"icons hover-scale\"></a><p>Mario Mata<br>Ingeniero Mecatrónico<br>© 2022</b></p>"
+	},
+
+	"index": {
+		"title": "Inicio",
+		"title-h1": "Mis Proyectos",
+		"p1": "Diseño e implementación de un sistema para el doblado de camisetas",
+		"p2": "Implementación de un mecanismo de 4 barras para la verificación de su modelo cinemático y dinámico",
+		"p3": "Diseño y simulación de un brazo robot de 2 GDL usando SolidWorks y Simscape",
+		"p4": "Diseño de un sistema automático para la limpieza efectiva de paneles solares",
+		"p5": "Diseño de una aplicación en MATLAB para el reconocimiento de fichas de dominó",
+		"p6": "Diseño e implementación de un cabezal de tortilladora para el control de los parámetros de formado de la tortilla"
+	},
+
+	"2DOF": {
+		"title": "Diseño y simulación de un robot de 2GDL",
+		"title-h1": "Diseño y simulación de un brazo robot de 2 GDL usando SolidWorks y Simscape.",
+		"p1": "Brazo robot de 2 GDL diseñado en SolidWorks con el objetivo de ser exportado y simular su comportamiento en Simulink.",
+		"p2": "Las trayectorias fueron generadas haciendo un mapeo manual, la colección de coordenadas que se obtuvo fue usada para generar una función a través de series de Fourier.",
+		"p3": "Finalmente, el seguimiento de las diferentes trayectorias fue simulado con dos leyes de control: PD+ y PD con compensación. En conclusión, el mejor seguimiento de trayectoria se obtuvo con el control PD+."
+	},
+
+	"4bar": {
+		"title": "Implementación de un mecanismo de 4 barras",
+		"title-h1": "Implementación de un mecanismo de 4 barras para la verificación de su modelo cinemático y dinámico",
+		"p1": "Modelado realizado con Wolfram Mathematica y validado con Working Model 2D y GeoGebra. Mecanismo actuado por un motor de CD controlado a tráves de una interfaz entre Arduino y Simulink."
+	},
+
+	"Panels": {
+		"title": "Limpiador de Paneles",
+		"title-h1": "Diseño de un sistema automático para la limpieza efectiva de paneles solares",
+		"p1": "Sistema mecatrónico de limpieza inteligente y autónomo, diseñado para remover la suciedad a través de su limpiador de microfibra, evitando así la pérdida de eficiencia y deterioro en arreglos de paneles solares."
+	},
+
+	"Dominoes": {
+		"title": "Aplicación para el reconocimiento de fichas de dominó",
+		"title-h1": "Diseño de una aplicación en MATLAB para el reconocimiento de fichas de dominó",
+		"p1": "Diseño de una aplicación en MATLAB para el reconocimiento de fichas de dominó usando una red neuronal y los momentos invariantes de Hu."
+	},
+
+	"Folding": {
+		"title": "Dobladora de camisetas",
+		"title-h1": "Diseño e implementación de un sistema para el doblado de camisetas",
+		"p1": "Las entradas del sistema son los botones que inician la secuencia de doblado y los sensores de límite que permiten identificar cuando los mecanismos de 2 barras han terminado su trayectoria. Los 4 mecanismos tienen como actuadores motores de CD con reductor y son controlados a través de un controlador diseñado en Proteus Design Suite. El microcontrolador PIC16F877a es usado como centro de procesamiento de información."
+	},
+
+	"Tortilla": {
+		"title": "Diseño e implementación de un cabezal",
+		"title-h1": "Diseño e implementación de un cabezal de tortilladora para el control de los parámetros de formado de la tortilla",
+		"p1": "Debido al escaso progreso tecnológico en la industria de los cabezales de tortilladora, y a pedido de un particular con experiencia en el sector alimentario, se realizó el diseño e implemetación de un sistema capaz de controlar el diámetro y espesor del testal automaticamente, además de mostrar al operador del sistema la información correspondiente a los parámetros de formado e información relacionada con la producción.",
+		"p2": "El diseño se realizó basandose en un análisis funcional partiendo de las necesidades y requerimientos establecidos. Posteriormente se realizó el diseño de los módulos y sistemas que integran a la máquina, siendo validados con modelos y simulaciones hechas en SolidWorks, Simulink y Proteus Design Suite.",
+		"p3": "El diseño final del sistema cuenta con tres cortadores de tamaños comerciales y la opción de obtener testales con espesor de 1 a 3 mm, además se estima una producción de 900 testales por hora y un consumo eléctrico de 0.6 kWh.",
+		"p4": "Para verificar el correcto conformado se implementó un algoritmo de visión artificial en MATLAB para medir el radio mínimo, máximo, y promedio del testal, así como su espesor. La implementación del sistema se realizó durante la pandemia de SARS CoV2 (COVID-19), por lo que se tuvieron que realizar modificaciones a algunos módulos y sistemas. Finalmente, se implementó un prototipo que cuenta con una interfaz humano-máquina que permite almacenar y revisar los datos de producción, además de indicar los parámetros de producción.",
+		"p5": "El sistema es capaz de producir testales de 3 diferentes tamaños comerciales con espesores que van de 1 a 3 mm, el tiempo de calibración es de aproximadamente 2 minutos con 46 segundos, el consumo de energía eléctrica máximo es de 0.34 kWh, el volumen de producción es de 1,237 testal/h para testales con diámetro de 10 cm y un costo energético de 0.275 W/testal. Esto respresenta una mejora en la eficiencia enérgetica en comparación con modelos comerciales. Para más detalles revisar: <a href=\"https://www.youtube.com/channel/UCglQPhhmiy2nZnT2VgtYIwQ\">YouTube - Tortilladora</a>"
+	}
+}

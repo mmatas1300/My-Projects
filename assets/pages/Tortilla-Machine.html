@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="/My-Projects/assets/js/writeHead.js"></script>
+    <title data-section="Tortilla" data-value="title">Design and implementation of a tortilla machine head</title>
+  </head>
+  <body>
+    <header>
+      <span class="column-2">
+        <div>
+          <a href="/My-Projects/index.html"><img src= "/My-Projects/assets/icons/circle-arrow.svg" alt="Home" class="icons hover-scale"></a>
+        </div>
+        <span class="lang-change">
+          <p class="lang-icon">n't</p>
+          <input type="checkbox" id="btn-switch">
+          <label for="btn-switch" class="label-switch"></label>
+          <p class="lang-icon">ñ</p>
+        </span>
+      </span> 
+      <h1 data-section="Tortilla" data-value="title-h1">Design and implementation of a tortilla machine head to control the tortilla forming parameters</h1>
+    </header>
+    <main>
+      <p class="text-box" data-section="Tortilla" data-value="p1">Due to the scarce progress in the technological implementation in tortilla machines to provide useful production information to the owner and operator, as well as to simplify the machine calibration process, a request was made by an individual, with experience in food production and marketing, for the design and implementation of a system capable of controlling the diameter and thickness of the testal automatically according to the needs for the final consumption of the tortilla, and display to the operator the information corresponding to the forming parameters of the testal (raw corn dough disk) and information concerning the current production data.</p>
+      <span class="row">
+        <div class="column">
+          <img src="/My-Projects/assets/imgs/Tortilla-Machine/Solution.webp" class="prj-image l-reveal" alt="Solution">   
+        </div>
+        <div class="column">
+          <img src="/My-Projects/assets/imgs/Tortilla-Machine/Exploded.webp" class="prj-image r-reveal" alt="Exploded">
+        </div>
+      </span>
+      <p class="text-box" data-section="Tortilla" data-value="p2">The design was made based on a functional analysis to meet the established needs and requirements. Subsequently, the design by modules and systems was carried out, being computationally validated from models and simulations made in SolidWorks, Simulink and Proteus Design Suite.</p>
+      <span class="row">
+        <div class="column">
+          <img src="/My-Projects/assets/imgs/Tortilla-Machine/SimulinkControl.webp" class="prj-image r-reveal" alt="Simulink control">
+        </div>
+        <div class="column">
+          <img src="/My-Projects/assets/imgs/Tortilla-Machine/PowerSupply.webp" class="prj-image l-reveal" alt="Power supply">   
+        </div>
+      </span>
+      <p class="text-box" data-section="Tortilla" data-value="p3">The final design of the system has three commercial size cutters and the option to obtain testales with a thickness between 1 mm and 3 mm, in addition, a production of approximately 900 testales per hour and an electrical consumption of 0.6 kWh is estimated.</p>
+      <span class="row">
+        <div class="column">
+          <img src="/My-Projects/assets/imgs/Tortilla-Machine/Render.webp" class="prj-image c-reveal" alt="Render">
+        </div>
+      </span>
+      <p class="text-box" data-section="Tortilla" data-value="p4">In order to verify the correct shape of the testal, an artificial vision algorithm was implemented in MATLAB to measure the minimum, maximum and average radius of the testal as well as its thickness. The implementation of the mechatronic system took place in 2021 during the SARS CoV2 pandemic (COVID-19), so modifications were made to some modules and systems. Finally, a prototype was implemented with a human-machine interface that allows storing and reviewing production data, indicating the parameters of the test pieces to be produced and starting or stopping production.</p>
+      <span class="row">
+        <div class="column">
+          <img src="/My-Projects/assets/imgs/Tortilla-Machine/TestalCheck.png" class="prj-image l-reveal" alt="Testal verification">
+        </div>
+        <div class="column">
+          <img src="/My-Projects/assets/imgs/Tortilla-Machine/Production.webp" class="prj-image r-reveal" alt="Production">
+        </div>
+      </span>
+      <p class="text-box" data-section="Tortilla" data-value="p5">The system is capable of performing the cutting of 3 commercial sizes with a thickness between 1 and 3 mm, achieving a calibration time of approximately 2 minutes and 46 seconds, a maximum energy consumption of 0.34 kWh, a production volume of 1,237 testal/h with a diameter of 10 cm and an energy cost of 0.275 W/testal. This represents an improvement in energy efficiency, since in comparison, other commercial models have an energy cost of 0.275 W/testal. For more details see the videos at: <a href="https://www.youtube.com/channel/UCglQPhhmiy2nZnT2VgtYIwQ">YouTube - Tortilla Machine</a></p>
+    </main>
+    <div class="breaker"></div>
+    <footer data-section="page" data-value="footer">
+    </footer>
+    <script src="/My-Projects/assets/js/main.js"></script>
+  </body>
+</html>

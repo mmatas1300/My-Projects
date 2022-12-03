@@ -1,0 +1,59 @@
+{
+	"page": {
+		"footer": "<a href=\"https://github.com/mmatas1300\" target=\"_blank\"><img src= \"/My-Projects/assets/icons/github.svg\" alt=\"/mmatas1300\" class=\"icons hover-scale\"></a><a href=\"https://www.linkedin.com/in/mmatas1300/\" target=\"_blank\"><img src= \"/My-Projects/assets/icons/linkedin.svg\" alt=\"/mmatas1300\" class=\"icons hover-scale\"></a><a href=\"mailto:mmatas1300@gmail.com\" target=\"_blank\"><img src= \"/My-Projects/assets/icons/at.svg\" alt=\"mmatas1300@gmail.com\" class=\"icons hover-scale\"></a><a href=\"/My-Projects/assets/docs/CV_MM_EN.pdf\" target=\"_blank\"><img src= \"/My-Projects/assets/icons/cv.svg\" alt=\"CV\" class=\"icons hover-scale\"></a><p>Mario Mata<br>Mechatronics Engineer<br>© 2022</b></p>",
+		"footer-index": "<a href=\"https://github.com/mmatas1300\" target=\"_blank\"><img src= \"assets/icons/github.svg\" alt=\"/mmatas1300\" class=\"icons hover-scale\"></a><a href=\"https://www.linkedin.com/in/mmatas1300/\" target=\"_blank\"><img src= \"assets/icons/linkedin.svg\" alt=\"/mmatas1300\" class=\"icons hover-scale\"></a><a href=\"mailto:mmatas1300@gmail.com\" target=\"_blank\"><img src= \"assets/icons/at.svg\" alt=\"mmatas1300@gmail.com\" class=\"icons hover-scale\"></a><a href=\"assets/docs/CV_MM_EN.pdf\" target=\"_blank\"><img src= \"assets/icons/cv.svg\" alt=\"CV\" class=\"icons hover-scale\"></a><p>Mario Mata<br>Mechatronics Engineer<br>© 2022</b></p>"
+	},
+
+	"index": {
+		"title": "Home",
+		"title-h1": "My Projects",
+		"p1": "Design and implementation of a system for T-shirt folding",
+		"p2": "Implementation of a 4-bar mechanism for dynamic and kinematic model verification",
+		"p3": "Design and simulation of a 2 DOF Robot using SolidWorks and Simscape",
+		"p4": "Design of an automatic system for efficient cleaning of photovoltaic arrays",
+		"p5": "Design of an application in MATLAB for the recognition of dominoes",
+		"p6": "Design and implementation of a tortilla machine head to control the tortilla forming parameters"
+	},
+
+	"2DOF": {
+		"title": "Design and simulation of a 2 DOF Robot",
+		"title-h1": "Design and simulation of a 2 DOF Robot using SolidWorks and Simscape.",
+		"p1": "A 2 DOF robot was designed in SolidWorks to export the 3D model and simulate its behavior in Simulink.",
+		"p2": "The trajectories were generated from a manual mapping, then the collection of coordinates was used to generate a function using Fourier series.",
+		"p3": "Finally, the tracking of the different trajectories was simulated with a PD+ control and a PD with compensation control. In conclusion, better tracking performance was obtained with the PD+ control."
+	},
+
+	"4bar": {
+		"title": "Implementation of a 4-bar mechanism",
+		"title-h1": "Implementation of a 4-bar mechanism for dynamic and kinematic model verification",
+		"p1": "Modeling performed with Mathematica support and validated with Working Model 2D and GeoGebra. Mechanism activated by a motor controlled by a driver through a conection between Arduino and simulink."
+	},
+
+	"Panels": {
+		"title": "System for efficient cleaning of photovoltaic arrays",
+		"title-h1": "Design of an automatic system for efficient cleaning of photovoltaic arrays",
+		"p1": "A mechatronic, intelligent and autonomous cleaning system, designed to remove dirt by means of its microfiber to prevent deterioration and loss of efficiency in solar panel arrays."
+	},
+
+	"Dominoes": {
+		"title": "Application for the recognition of dominoes",
+		"title-h1": "Design of an application in MATLAB for the recognition of dominoes",
+		"p1": "Design of an application in MATLAB for the recognition of dominoes using a neuronal network and the invariant moments of Hu."
+	},
+
+	"Folding": {
+		"title": "System for T-shirt folding",
+		"title-h1": "Design and implementation of a system for T-shirt folding",
+		"p1": "The inputs to the system are the button that initiates the system sequence and the limit sensors to know that the 2-bar mechanisms have completed their trajectory. The 4 mechanisms are actuated by DC motors with gearbox and are controlled through a driver designed in Proteus Design Suite. The PIC16F877a microcontroller was used as the processing center."
+	},
+
+	"Tortilla": {
+		"title": "Design and implementation of a tortilla machine head",
+		"title-h1": "Design and implementation of a tortilla machine head to control the tortilla forming parameters",
+		"p1": "Due to the scarce progress in the technological implementation in tortilla machines to provide useful production information to the owner and operator, as well as to simplify the machine calibration process, a request was made by an individual, with experience in food production and marketing, for the design and implementation of a system capable of controlling the diameter and thickness of the testal automatically according to the needs for the final consumption of the tortilla, and display to the operator the information corresponding to the forming parameters of the testal (raw corn dough disk) and information concerning the current production data.",
+		"p2": "The design was made based on a functional analysis to meet the established needs and requirements. Subsequently, the design by modules and systems was carried out, being computationally validated from models and simulations made in SolidWorks, Simulink and Proteus Design Suite.",
+		"p3": "The final design of the system has three commercial size cutters and the option to obtain testales with a thickness between 1 mm and 3 mm, in addition, a production of approximately 900 testales per hour and an electrical consumption of 0.6 kWh is estimated.",
+		"p4": "In order to verify the correct shape of the testal, an artificial vision algorithm was implemented in MATLAB to measure the minimum, maximum and average radius of the testal as well as its thickness. The implementation of the mechatronic system took place in 2021 during the SARS CoV2 pandemic (COVID-19), so modifications were made to some modules and systems. Finally, a prototype was implemented with a human-machine interface that allows storing and reviewing production data, indicating the parameters of the test pieces to be produced and starting or stopping production.",
+		"p5": "The system is capable of performing the cutting of 3 commercial sizes with a thickness between 1 and 3 mm, achieving a calibration time of approximately 2 minutes and 46 seconds, a maximum energy consumption of 0.34 kWh, a production volume of 1,237 testal/h with a diameter of 10 cm and an energy cost of 0.275 W/testal. This represents an improvement in energy efficiency, since in comparison, other commercial models have an energy cost of 0.275 W/testal. For more details see the videos at: <a href=\"https://www.youtube.com/channel/UCglQPhhmiy2nZnT2VgtYIwQ\">YouTube - Tortilla Machine</a>"
+	}
+}
