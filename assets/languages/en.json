@@ -1,7 +1,7 @@
 {
 	"page": {
-		"footer": "<a href=\"https://github.com/mmatas1300\" target=\"_blank\"><img src= \"/My-Projects/assets/icons/github.svg\" alt=\"/mmatas1300\" class=\"icons hover-scale\"></a><a href=\"https://www.linkedin.com/in/mmatas1300/\" target=\"_blank\"><img src= \"/My-Projects/assets/icons/linkedin.svg\" alt=\"/mmatas1300\" class=\"icons hover-scale\"></a><a href=\"mailto:mmatas1300@gmail.com\" target=\"_blank\"><img src= \"/My-Projects/assets/icons/at.svg\" alt=\"mmatas1300@gmail.com\" class=\"icons hover-scale\"></a><a href=\"/My-Projects/assets/docs/CV_MM_EN.pdf\" target=\"_blank\"><img src= \"/My-Projects/assets/icons/cv.svg\" alt=\"CV\" class=\"icons hover-scale\"></a><p>Mario Mata<br>Mechatronics Engineer<br>© 2022</b></p>",
-		"footer-index": "<a href=\"https://github.com/mmatas1300\" target=\"_blank\"><img src= \"assets/icons/github.svg\" alt=\"/mmatas1300\" class=\"icons hover-scale\"></a><a href=\"https://www.linkedin.com/in/mmatas1300/\" target=\"_blank\"><img src= \"assets/icons/linkedin.svg\" alt=\"/mmatas1300\" class=\"icons hover-scale\"></a><a href=\"mailto:mmatas1300@gmail.com\" target=\"_blank\"><img src= \"assets/icons/at.svg\" alt=\"mmatas1300@gmail.com\" class=\"icons hover-scale\"></a><a href=\"assets/docs/CV_MM_EN.pdf\" target=\"_blank\"><img src= \"assets/icons/cv.svg\" alt=\"CV\" class=\"icons hover-scale\"></a><p>Mario Mata<br>Mechatronics Engineer<br>© 2022</b></p>"
+		"footer": "<a href=\"https://github.com/mmatas1300\" target=\"_blank\"><img src= \"/My-Projects/assets/icons/github.svg\" alt=\"/mmatas1300\" class=\"icons hover-scale\"></a><a href=\"https://www.linkedin.com/in/mmatas1300/\" target=\"_blank\"><img src= \"/My-Projects/assets/icons/linkedin.svg\" alt=\"/mmatas1300\" class=\"icons hover-scale\"></a><a href=\"mailto:mmatas1300@gmail.com\" target=\"_blank\"><img src= \"/My-Projects/assets/icons/at.svg\" alt=\"mmatas1300@gmail.com\" class=\"icons hover-scale\"></a><a href=\"/My-Projects/assets/docs/CV_MM_EN.pdf\" target=\"_blank\"><img src= \"/My-Projects/assets/icons/cv.svg\" alt=\"CV\" class=\"icons hover-scale\"></a><p>Mario Mata<br>Mechatronics Engineer<br>© 2023</b></p>",
+		"footer-index": "<a href=\"https://github.com/mmatas1300\" target=\"_blank\"><img src= \"assets/icons/github.svg\" alt=\"/mmatas1300\" class=\"icons hover-scale\"></a><a href=\"https://www.linkedin.com/in/mmatas1300/\" target=\"_blank\"><img src= \"assets/icons/linkedin.svg\" alt=\"/mmatas1300\" class=\"icons hover-scale\"></a><a href=\"mailto:mmatas1300@gmail.com\" target=\"_blank\"><img src= \"assets/icons/at.svg\" alt=\"mmatas1300@gmail.com\" class=\"icons hover-scale\"></a><a href=\"assets/docs/CV_MM_EN.pdf\" target=\"_blank\"><img src= \"assets/icons/cv.svg\" alt=\"CV\" class=\"icons hover-scale\"></a><p>Mario Mata<br>Mechatronics Engineer<br>© 2023</b></p>"
 	},
 
 	"index": {
@@ -12,7 +12,8 @@
 		"p3": "Design and simulation of a 2 DOF Robot using SolidWorks and Simscape",
 		"p4": "Design of an automatic system for efficient cleaning of photovoltaic arrays",
 		"p5": "Design of an application in MATLAB for the recognition of dominoes",
-		"p6": "Design and implementation of a tortilla machine head to control the tortilla forming parameters"
+		"p6": "Design and implementation of a tortilla machine head to control the tortilla forming parameters",
+		"p7": "Design of a card holder with React.js"
 	},
 
 	"2DOF": {

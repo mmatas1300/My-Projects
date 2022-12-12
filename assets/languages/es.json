@@ -1,7 +1,7 @@
 {
 	"page": {
-		"footer": "<a href=\"https://github.com/mmatas1300\" target=\"_blank\"><img src= \"/My-Projects/assets/icons/github.svg\" alt=\"/mmatas1300\" class=\"icons hover-scale\"></a><a href=\"https://www.linkedin.com/in/mmatas1300/\" target=\"_blank\"><img src= \"/My-Projects/assets/icons/linkedin.svg\" alt=\"/mmatas1300\" class=\"icons hover-scale\"></a><a href=\"mailto:mmatas1300@gmail.com\" target=\"_blank\"><img src= \"/My-Projects/assets/icons/at.svg\" alt=\"mmatas1300@gmail.com\" class=\"icons hover-scale\"></a><a href=\"/My-Projects/assets/docs/CV_MM_ES.pdf\" target=\"_blank\"><img src= \"/My-Projects/assets/icons/cv.svg\" alt=\"CV\" class=\"icons hover-scale\"></a><p>Mario Mata<br>Ingeniero Mecatrónico<br>© 2022</b></p>",
-		"footer-index": "<a href=\"https://github.com/mmatas1300\" target=\"_blank\"><img src= \"assets/icons/github.svg\" alt=\"/mmatas1300\" class=\"icons hover-scale\"></a><a href=\"https://www.linkedin.com/in/mmatas1300/\" target=\"_blank\"><img src= \"assets/icons/linkedin.svg\" alt=\"/mmatas1300\" class=\"icons hover-scale\"></a><a href=\"mailto:mmatas1300@gmail.com\" target=\"_blank\"><img src= \"assets/icons/at.svg\" alt=\"mmatas1300@gmail.com\" class=\"icons hover-scale\"></a><a href=\"assets/docs/CV_MM_ES.pdf\" target=\"_blank\"><img src= \"assets/icons/cv.svg\" alt=\"CV\" class=\"icons hover-scale\"></a><p>Mario Mata<br>Ingeniero Mecatrónico<br>© 2022</b></p>"
+		"footer": "<a href=\"https://github.com/mmatas1300\" target=\"_blank\"><img src= \"/My-Projects/assets/icons/github.svg\" alt=\"/mmatas1300\" class=\"icons hover-scale\"></a><a href=\"https://www.linkedin.com/in/mmatas1300/\" target=\"_blank\"><img src= \"/My-Projects/assets/icons/linkedin.svg\" alt=\"/mmatas1300\" class=\"icons hover-scale\"></a><a href=\"mailto:mmatas1300@gmail.com\" target=\"_blank\"><img src= \"/My-Projects/assets/icons/at.svg\" alt=\"mmatas1300@gmail.com\" class=\"icons hover-scale\"></a><a href=\"/My-Projects/assets/docs/CV_MM_ES.pdf\" target=\"_blank\"><img src= \"/My-Projects/assets/icons/cv.svg\" alt=\"CV\" class=\"icons hover-scale\"></a><p>Mario Mata<br>Ingeniero Mecatrónico<br>© 2023</b></p>",
+		"footer-index": "<a href=\"https://github.com/mmatas1300\" target=\"_blank\"><img src= \"assets/icons/github.svg\" alt=\"/mmatas1300\" class=\"icons hover-scale\"></a><a href=\"https://www.linkedin.com/in/mmatas1300/\" target=\"_blank\"><img src= \"assets/icons/linkedin.svg\" alt=\"/mmatas1300\" class=\"icons hover-scale\"></a><a href=\"mailto:mmatas1300@gmail.com\" target=\"_blank\"><img src= \"assets/icons/at.svg\" alt=\"mmatas1300@gmail.com\" class=\"icons hover-scale\"></a><a href=\"assets/docs/CV_MM_ES.pdf\" target=\"_blank\"><img src= \"assets/icons/cv.svg\" alt=\"CV\" class=\"icons hover-scale\"></a><p>Mario Mata<br>Ingeniero Mecatrónico<br>© 2023</b></p>"
 	},
 
 	"index": {
@@ -12,7 +12,8 @@
 		"p3": "Diseño y simulación de un brazo robot de 2 GDL usando SolidWorks y Simscape",
 		"p4": "Diseño de un sistema automático para la limpieza efectiva de paneles solares",
 		"p5": "Diseño de una aplicación en MATLAB para el reconocimiento de fichas de dominó",
-		"p6": "Diseño e implementación de un cabezal de tortilladora para el control de los parámetros de formado de la tortilla"
+		"p6": "Diseño e implementación de un cabezal de tortilladora para el control de los parámetros de formado de la tortilla",
+		"p7": "Diseño de un tarjetero con React.js"
 	},
 
 	"2DOF": {
