@@ -1,13 +1,7 @@
 @font-face {
   font-family: "Cairo Play";
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/cairoplay/v6/wXKEE3QSpo4vpRz_mz6FP-8iaauCLt_Hjopv3miu5IvcJo49mOo1THEa9S_bwGu7aA.woff2) format('woff2');
-  unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
+  src: url("../fonts/CairoPlay.woff2") format('woff2');
 }
-
-
 
 @font-face {
     font-family: "Cairo";
