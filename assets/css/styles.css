@@ -1,7 +1,3 @@
-@font-face {
-  font-family: "Cairo Play";
-    src: url("../fonts/CairoPlay.ttf");
-}
 
 @font-face {
     font-family: "Cairo";
@@ -13,7 +9,7 @@
   }
 
 header{
-    font-family: 'Cairo Play';
+    font-family: 'Cairo Play', cursive;
 }
 
 main{
@@ -31,7 +27,7 @@ h1 {
 }
 
 footer{
-    font-family: 'Cairo Play', sans-serif;
+    font-family: 'Cairo Play', cursive;
     text-align: center;
 }
 
