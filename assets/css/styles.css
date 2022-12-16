@@ -1,7 +1,9 @@
 @font-face {
     font-family: "Cairo Play";
-    src: url("../fonts/CairoPlay.ttf");
+    src: url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@600&display=swap');
 }
+
+
 
 @font-face {
     font-family: "Cairo";
@@ -13,7 +15,7 @@
   }
 
 header{
-    font-family: 'Cairo Play', sans-serif;
+    font-family: 'Cairo Play', cursive;
 }
 
 main{
