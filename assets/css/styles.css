@@ -29,6 +29,7 @@ main{
 body {
     background-color:#0F0F0F;
     color: white;
+  --google-font-color-cairoplay:colrv0;
 }
 
 h1 {
